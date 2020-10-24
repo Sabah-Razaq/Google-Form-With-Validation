@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;}
+
+body {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    border: 1px solid  rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    margin-top: 6%;
+    left: 33%;  
+    color: #5f6368; 
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+main {
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+h1, h2 {
+    color: #202124;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 450;
+    padding-top: 4%;
+}
+
+h2 {
+    font-size: 16px;
+    padding-top: 3%;
+    padding-bottom: 6%;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+input {
+    height: 20px;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #0c0c0c26;
+    border-radius: 5px;  
+    text-align: left;
+    transition: .2s;
+    padding-right: 50%;
+}
+
+form a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+.f-email {
+    padding-top: 3%;
+    padding-bottom: 12%;
+}
+
+.name-email {
+    border: 1px solid #0c0c0c26;
+    border-radius: 22px;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+    width: 63%;  
+    text-align: center;  
+    margin-left: 20%;
+    color: #202124;
+    font-weight: 500;
+}
+
+.name-email span {
+    padding: 4%;
+}
+
+.name-email:hover {
+    background-color: #0c0c0c26;
+}
+
+form p {
+    font-size: 15px;
+}
+
+form :focus {
+    border: 2px solid #1a73e8;
+}
+
+input:focus {
+    outline:none;  
+ }
+ 
+ button {
+    background-color: #1a73e8;
+    padding: 9px 28px;
+    border: 1px #1a73e8;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 15%;
+}
+
+.ca-btn {
+    padding-top: 12%;
+    padding-bottom: 10%;
+}
+
+.btn {
+    position: absolute;
+    left: 75%;
+    bottom: 13%;
+}
+
+footer {
+    position: absolute;
+    bottom: -7%;
+    color: #5f6368; 
+    font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #5f6368;
+}
+
+footer span {
+    left: -65%;
+    position: absolute;
+}
+
+.f-anchors {
+    margin-left: 73%;
+    width: 100%;
+}
+
+#error , #psw {
+    color: red;
+    font-size: 12px;
+}
+

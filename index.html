@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Signin</title>
+    <!--===== Css link =====-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <main>
+            <!--===== Logo image =====-->
+            <div>
+                <img src="Images/logo.png" alt="" height="33px">
+            </div>
+            <!--===== Main headings =====-->
+            <div>
+                <h1>Sign in</h1>
+                <h2>Use your Google Account</h2>
+            </div>
+        </main>
+        <form action="password.html">
+            <!--===== Email/phone area =====-->
+            <div class="uname">
+                <input type="text" name="username" id="user_name" placeholder="Email or phone">
+                <br>
+                <span id="error"></span>
+            </div>
+            <div class="f-email">
+                <a href="#">Forgot email?</a>
+            </div>
+            <div>
+                <p>Not your computer? Use Guest mode to sign in privately.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <!--===== Buttons area =====-->
+            <div class="ca-btn">
+                <a href="#">Create account</a>
+            </div>
+            <div class="btn">
+                <button type="submit" onclick="return signIn()">Next</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <!--===== Footer area =====-->
+        <span>English (United States)<i class="fas fa-angle-down"></i></span>
+        <div class="f-anchors">
+            <a href="#">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </footer>
+
+
+    <!--===== Email hint/alert =====-->
+    <script>
+        alert("Email: sabahrazaq99@gmail.com")
+    </script>
+    <!--===== Js link =====-->
+    <script src="script.js"></script>
+    <!--===== GoogleFont link =====-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!--===== FontAwesome link =====-->
+    <script src="https://kit.fontawesome.com/da1b0dca31.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
